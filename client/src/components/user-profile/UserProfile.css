@@ -1,0 +1,147 @@
+/* UserProfile.css */
+
+.user-profile {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #f4e7d3, #e8d5b5); 
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .dashboard {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #8b5e3c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .p1{
+    justify-content: space-around;
+  } */
+
+  .p1 .d1{
+    color:#793804;
+    
+  }
+
+  .user-details {
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(130, 81, 17, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .user-details:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(130, 81, 17, 0.2);
+  }
+  
+  .user-details h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-details h5:first-child {
+    font-weight: 600;
+    color: #6b4423; 
+  }
+  
+  .user-details h5:last-child {
+    color: #7a5c48; 
+  }
+  
+  .user-details h5 svg {
+    width: 20px;
+    height: 20px;
+    fill: #6b4423; 
+  }
+
+  .user-profile .d1{
+    margin-right: 10px;
+  }
+
+  .borrowed-books {
+    margin-top: 20px;
+    padding: 15px;
+    /* background: #fff;
+    border-radius: 8px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .borrowed-title {
+    font-size: 1.5rem;
+    color: #800020;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .book-item {
+    background: #f8f1e5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item strong {
+    color: #8b4513;
+  }
+  
+
+  @media (max-width: 768px) {
+    .user-profile {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .dashboard {
+      font-size: 2rem;
+    }
+  
+    .user-details h5 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard {
+      font-size: 1.8rem;
+    }
+  
+    .user-details {
+      padding: 15px;
+    }
+  
+    .user-details h5 {
+      font-size: 0.9rem;
+    }
+  }
+
+  .no-books {
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }

@@ -1,0 +1,70 @@
+img{
+    width: 5rem
+}
+.header{
+    background-color:rgb(130, 81, 17)
+    
+    
+}
+
+.icon{
+    display :grid;
+}
+
+.logo{
+     font-family: "Roboto", serif; 
+    /* color: white; */
+}
+span{
+    color: white
+}
+
+.nav-link {
+    color: white;    
+    transition: all 0.3s ease; 
+  }
+  
+  .login-icon, .signin-icon, .logout-icon, .user-icon,.side-icon{
+    font-size: 24px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+  }
+  
+   .user-icon{
+    font-size:30px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+  
+ .nav-item button{
+  font-size:1.2rem; 
+  padding: 10px;
+ }
+
+ .nav-item button.nav-link:hover {
+  color: black;
+}
+
+  .nav-link:hover {
+    color: black; 
+  }
+  
+  .nav-link:hover .login-icon, .nav-link:hover .signin-icon  {
+    font-size: 28px; 
+    color: black; 
+  }
+  
+  .nav-item a {
+    font-size: 1.2rem; 
+  }
+  
+/* 
+  @media(max-width:768){
+  img{
+    width:1rem;
+  }
+  } */

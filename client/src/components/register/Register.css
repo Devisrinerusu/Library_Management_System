@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+ .pageregister{
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/022/574/915/small_2x/abstract-blurred-public-library-interior-space-blurry-room-with-bookshelves-by-defocused-effect-use-for-background-or-backdrop-in-abstract-blurred-publicbusiness-or-education-concepts-generative-ai-photo.jpg);
+     height: 130vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .register{
+    padding: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+  }
+
+  .registerpage{
+    width:50%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-height: 620px;
+     /* background: linear-gradient(rgba(231, 159, 4, 0.4),rgba(190, 100, 3, 0.1));  */
+  }
+
+  .registerpage:hover{
+    transform: scale(1.05);  
+    box-shadow: 10px 10px 20px rgb(88, 87, 87);
+  }
+
+  .registercard{
+    padding:60px;
+  }
+
+p{
+    font-size: 2rem;
+    color:black;
+}
+
+
+.btn1:hover{
+    /* transform: scale(1.05);  */
+    box-shadow: 10px 10px 20px rgb(88, 87, 87); 
+}
+.btn1{
+    margin-right: 8%;
+    width: 50%;
+    margin-left: 30px;
+   background-color:hsl(36, 55%, 35%);
+   padding-top: 5px;
+   padding-bottom:5px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   border-radius: 10px;
+   font-size: 1.1rem;
+}

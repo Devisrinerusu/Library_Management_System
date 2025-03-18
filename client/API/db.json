@@ -1,0 +1,227 @@
+{
+  "users": [
+    {
+      "id": "b204",
+      "username": "devi",
+      "email": "devisrinerusu@gmail.com",
+      "rollNo": "22501A05C7",
+      "branch": "CSE",
+      "password": "1234",
+      "mobile": "9515698138",
+      "borrowedBooks": [
+        {
+          "bookName": "Artificial Intelligence",
+          "author": "manoj",
+          "edition": "1",
+          "bookId": "12345",
+          "issuedDate": "2025-03-07",
+          "returnDate": "2025-04-07"
+        }
+      ]
+    },
+    {
+      "id": "5caf",
+      "username": "chaitu",
+      "email": "chaitu@gmail.com",
+      "rollNo": "22501A1205",
+      "branch": "IT",
+      "password": "chaitu",
+      "mobile": "9491070035"
+    },
+    {
+      "id": "a3b7",
+      "username": "manoj",
+      "email": "manoj@gmail.com",
+      "rollNo": "22501A0323",
+      "branch": "MECH",
+      "password": "123456",
+      "mobile": "9876543210",
+      "borrowedBooks": "None"
+    },
+    {
+      "id": "4e7c",
+      "username": "sriram",
+      "email": "sriram@gmail.com",
+      "rollNo": "22501A0405",
+      "branch": "ECE",
+      "password": "123456",
+      "mobile": "9160198138"
+    },
+    {
+      "id": "42a7",
+      "username": "dathu",
+      "email": "dathu@gmail.com",
+      "rollNo": "22501A0353",
+      "branch": "MECH",
+      "password": "123456",
+      "mobile": "7997578772",
+      "borrowedBooks": "None"
+    },
+    {
+      "id": "3bfa",
+      "username": "Vikas",
+      "email": "vikas@gmail.com",
+      "rollNo": "22501A0215",
+      "branch": "EEE",
+      "password": "123456",
+      "mobile": "9865321470",
+      "borrowedBooks": [
+        {
+          "bookName": "C",
+          "author": "Parthu",
+          "edition": "1",
+          "bookId": "42899",
+          "issuedDate": "2024-08-07",
+          "returnDate": "2024-09-07"
+        }
+      ]
+    },
+    {
+      "id": "3e60",
+      "username": "Siva",
+      "email": "siva@gmail.com",
+      "rollNo": "22501A0103",
+      "branch": "Civil",
+      "password": "123456",
+      "mobile": "9548632147",
+      "borrowedBooks": "None"
+    },
+    {
+      "id": "bfa8",
+      "username": "Bala",
+      "email": "bala@gmail.com",
+      "rollNo": "22501A05C9",
+      "branch": "CSE",
+      "password": "123456",
+      "mobile": "9874563210"
+    },
+    {
+      "id": "24be",
+      "username": "Shaik Abdul",
+      "email": "abdul@gmail.com",
+      "rollNo": "22501A0598",
+      "branch": "CSE",
+      "password": "123456",
+      "mobile": "9658741254",
+      "borrowedBooks": [
+        {
+          "bookName": "Python",
+          "author": "Aryan",
+          "edition": "1",
+          "bookId": "78963",
+          "issuedDate": "2424-08-07",
+          "returnDate": "2024-09-07"
+        }
+      ]
+    },
+    {
+      "id": "de68",
+      "username": "Prashanth",
+      "email": "prashanth@gmail.com",
+      "rollNo": "22501A0469",
+      "branch": "ECE",
+      "password": "123456",
+      "mobile": "9866589203"
+    }
+  ],
+  "librarians": [
+    {
+      "username": "dev",
+      "email": "dev@gmail.com",
+      "password": "dev",
+      "id": "f45a"
+    },
+    {
+      "username": "subbu",
+      "email": "subbu@gmail.com",
+      "password": "subbu",
+      "id": "bf03"
+    },
+    {
+      "id": "b633",
+      "email": "shyam@gmail.com",
+      "username": "shyam",
+      "password": "shyam"
+    },
+    {
+      "id": "6089",
+      "email": "anil@gmail.com",
+      "username": "Anil",
+      "password": "anil"
+    }
+  ],
+  "books": [
+    {
+      "id": "a4c9",
+      "bookName": "blochain Technology",
+      "author": "devi",
+      "edition": "1",
+      "branch": "cse",
+      "noOfBooks": 10
+    },
+    {
+      "id": "fb92",
+      "bookName": "Data Base Management Systems",
+      "author": "DeviSri",
+      "edition": "1",
+      "branch": "it",
+      "noOfBooks": 10
+    },
+    {
+      "id": "a8eb",
+      "bookName": "Python",
+      "author": "Aryan",
+      "edition": "1",
+      "branch": "aiml",
+      "noOfBooks": 9
+    },
+    {
+      "id": "08d0",
+      "bookName": "Machine Learning",
+      "author": "Sirisha",
+      "edition": "1",
+      "branch": "aiml",
+      "noOfBooks": 10
+    },
+    {
+      "id": "d5ba",
+      "bookName": "Artificial Intelligence",
+      "author": "manoj",
+      "edition": "2",
+      "branch": "aiml",
+      "noOfBooks": 10
+    },
+    {
+      "id": "283f",
+      "bookName": "Compiler Design",
+      "author": "manasa",
+      "edition": "1",
+      "branch": "cse",
+      "noOfBooks": 10
+    },
+    {
+      "id": "745a",
+      "bookName": "Artificial Intelligence",
+      "author": "manoj",
+      "edition": "1",
+      "branch": "aiml",
+      "noOfBooks": 9
+    },
+    {
+      "id": "1250",
+      "bookName": "C",
+      "author": "Parthu",
+      "edition": "1",
+      "branch": "cse",
+      "noOfBooks": 0
+    },
+    {
+      "id": "3d10",
+      "bookName": "Operating Systems",
+      "author": "Gupta",
+      "edition": "1",
+      "branch": "cse",
+      "noOfBooks": 10
+    }
+  ]
+}

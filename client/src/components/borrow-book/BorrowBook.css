@@ -1,0 +1,154 @@
+/* BorrowBook.css */
+
+/* Main container styling */
+.borrow-book-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8f1e5, rgb(213, 116, 71)); /* Light cream to deep burgundy gradient */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading styling */
+.borrow-book-container h2 {
+  text-align: center;
+  color: #800020; /* Deep burgundy for heading */
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.borrow-book-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between form elements */
+}
+
+/* Input field styling */
+.borrow-book-container input {
+  padding: 12px;
+  border: 1px solid #D27D2D; /* Deep burgundy border */
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.borrow-book-container input:focus {
+  border-color: #5C4033; /* Deep burgundy on focus */
+  box-shadow: 0 0 8px rgba(128, 0, 32, 0.3);
+  outline: none;
+}
+
+.borrow-book-container input::placeholder {
+  color: #999; /* Light gray placeholder text */
+}
+
+/* Button styling */
+.borrow-book-container button {
+  padding: 12px;
+  background-color: #954535; /* Deep burgundy for button */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.borrow-book-container button:hover {
+  background-color: #954535; /* Deep burgundy on hover */
+  transform: translateY(-3px);
+}
+
+.borrow-book-container button:active {
+  transform: translateY(0);
+}
+
+.borrow-book-container .buttons {
+  display: flex;
+  gap: 10px; /* Adds space between buttons */
+  justify-content: center; /* Centers buttons horizontally */
+}
+
+.borrow-book-container .buttons button {
+  padding: 12px 20px;
+  background-color: #954535; /* Deep maroon for button */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  flex: 1; /* Ensures buttons take equal width */
+}
+
+.borrow-book-container .buttons button:hover {
+  background-color: #a92903; /* Darker maroon on hover */
+  transform: translateY(-3px);
+}
+
+.borrow-book-container .buttons button:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .borrow-book-container {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .borrow-book-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .borrow-book-container input {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .borrow-book-container button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

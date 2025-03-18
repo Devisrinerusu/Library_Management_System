@@ -1,0 +1,122 @@
+.add-librarians {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #f4e7d3, #e8d5b5);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.heading {
+    text-align: center;
+    color: #8b5e3c;
+}
+
+.add-librarians h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #8b5e3c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-librarians .form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(130, 81, 17, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-librarians .form-control:focus {
+    border-color: #8b5e3c;
+    box-shadow: 0 0 8px rgba(130, 81, 17, 0.3);
+    outline: none;
+}
+
+.add-librarians .form-control::placeholder {
+    color: #999;
+}
+
+.add-librarians .text-danger {
+    font-size: 0.9rem;
+    color: #d9534f;
+    margin-top: 5px;
+}
+
+.add-librarians .btn2 {
+    width: 100%;
+    padding: 12px;
+    background-color: #8b5e3c;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-left:-1.5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.h{
+    color: #6b4423;
+}
+
+.add-librarians .btn2:hover {
+    background-color: #6b4423;
+    transform: translateY(-3px);
+}
+
+.add-librarians .btn2:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .add-librarians {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .add-librarians h2 {
+        font-size: 2rem;
+    }
+
+    .add-librarians .form-control {
+        font-size: 0.9rem;
+    }
+
+    .add-librarians .btn2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .add-librarians h2 {
+        font-size: 1.8rem;
+    }
+
+    .add-librarians .form-control {
+        padding: 10px;
+    }
+
+    .add-librarians .btn2 {
+        padding: 10px;
+    }
+}

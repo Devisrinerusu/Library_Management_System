@@ -1,0 +1,114 @@
+/* ReturnBook.css */
+
+/* Main container styling */
+.return-book-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f1e5, rgb(213, 116, 71)); /* Light pink gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Heading styling */
+  .return-book-container h3.heading {
+    text-align: center;
+    color: #800020; /* Deep maroon for heading */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Error message styling */
+  .return-book-container .error-message {
+    color: #d32f2f; /* Red for error messages */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  /* Form styling */
+  .return-book-container .return-book {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between form elements */
+  }
+  
+  /* Input field styling */
+  .return-book-container .form-control {
+    padding: 12px;
+    border: 1px solid #800020; /* Deep maroon border */
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .return-book-container .form-control:focus {
+    border-color: #600018; /* Darker maroon on focus */
+    box-shadow: 0 0 8px rgba(128, 0, 32, 0.3);
+    outline: none;
+  }
+  
+  .return-book-container .form-control::placeholder {
+    color: #999; /* Light gray placeholder text */
+  }
+  
+  /* Button styling */
+  .return-book-container button {
+    padding: 12px 20px;
+    background-color: #954535; /* Deep maroon for button */
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; /* Full width button */
+  }
+  
+  .return-book-container button:hover {
+    background-color: #600018; /* Darker maroon on hover */
+    transform: translateY(-3px);
+  }
+  
+  .return-book-container button:active {
+    transform: translateY(0);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .return-book-container {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .return-book-container h3.heading {
+      font-size: 1.5rem;
+    }
+  
+    .return-book-container .form-control {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .return-book-container button {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
