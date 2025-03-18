@@ -1,0 +1,108 @@
+get http://localhost:5000/users-api/users
+
+
+###
+
+post http://localhost:5000/users-api/register
+Content-Type: application/json
+
+{
+    
+      "username": "chaitu",
+      "email": "chaitu@gmail.com",
+      "rollNo": "22501A1205",
+      "branch": "IT",
+      "password": "chaitu",
+      "mobile": "9491070035",
+      "borrowedBooks":[]
+}
+
+
+###
+
+patch http://localhost:5000/users-api/users/67d8634936172220522caedd
+Content-Type: application/json
+
+{
+
+  "borrowedBooks": [
+    {
+          "bookName": "Machine Learning",
+          "author": "Sirisha",
+          "edition": "2",
+          "bookId": "44562",
+          "issuedDate": "2025-02-09",
+          "returnDate": "2025-03-09"
+        }
+  ]
+}
+
+
+###
+
+patch http://localhost:5000/users-api/users/67d58c3988c158c6deedd334
+Content-Type: application/json
+
+{
+  "bookName": "Machine Learning",
+  "author": "Sirisha",
+  "edition": "2"
+}
+
+
+
+###
+get http://localhost:5000/books-api/books/artificial intelligence/herbert
+
+
+
+###
+get http://localhost:5000/users-api/users/22501A0103
+
+###
+
+get http://localhost:5000/users-api/users/67d533f224464a54708e5999
+
+
+###
+
+post http://localhost:5000/librarians-api/login
+Content-Type: application/json
+
+ {
+      "username": "dev",
+      "email": "dev@gmail.com",
+      "password": "dev",
+      "id": "f45a"
+    }
+
+
+###
+
+patch http://localhost:5000/users-api/users/removeBook/67d8ed2b1f68b56ef088666b
+Content-Type: application/json
+
+{
+  "bookName": "machine learning",
+  "author":"Sirisha",
+  "edition": "2"
+}
+
+###
+
+patch http://localhost:5000/users-api/users/borrowbook/rollNo/"22501A0103"
+Content-Type: application/json
+
+{
+
+  "borrowedBooks": [
+    {
+          "bookName": "machine learning",
+          "author": "sirisha",
+          "edition": "2",
+          "bookId": "44562",
+          "issuedDate": "2025-02-09",
+          "returnDate": "2025-03-09"
+        }
+  ]
+}
